@@ -1,0 +1,18 @@
+.header{
+    height: 54vw;
+    margin: 30px auto;
+    background: url('/GTheader.jpg') no-repeat;
+    background-size: contain;
+    position: relative;
+} 
+
+.header-contents {
+    color: white;
+    font-family: outfit;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 80%; /* Adjust the maximum width as needed */
+    text-align: center;
+  }
