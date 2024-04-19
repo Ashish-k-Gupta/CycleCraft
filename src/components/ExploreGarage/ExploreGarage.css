@@ -1,0 +1,68 @@
+.explore-garage{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 500px;
+    /* border: 5px solid green; */
+}
+
+.explore-garage h1{
+    color: #262626;
+    font-weight: 500;
+}
+
+.explore-garage-text{
+    max-width: 60%;
+    color: #808080;
+}
+
+.explore-garage-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;    
+    text-align: center;
+    overflow-x: scroll;
+}
+
+.explore-garage-list::-webkit-scrollbar{
+    display: none;
+    scrollbar-width: none;
+}
+
+.explore-garage-list img{
+    height: 15vw;
+    cursor: pointer;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+.explore-garage-list p{
+    color: black;
+    font-weight: 500;
+    font-size: max(1.2vw, 16px);
+    cursor: pointer;
+    padding-bottom: 20px;
+
+}
+
+.explore-garage hr{
+    margin: 10px 0px;
+    height: 2px;
+    background-color: #e2e2e2;
+    border: none;
+}
+
+
+
+
+/* 
+  const [category, setCategory] = useState("All")
+
+      <ExploreGarage category={category} setCategory ={setCategory}/>
+
+      const ExploreGarage = ({category, setCategory}) => {
+
+                      <img className={category === item.bike_name? "active":"" } src={item.bike_image} alt="" />
+                <div onClick= {()=> setCategory(prev =>prev===item.bike_name?"All": item.bike_name)} key={index} className='explore-garage-list-item'>
+
+*/
