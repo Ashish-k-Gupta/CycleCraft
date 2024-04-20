@@ -31,7 +31,7 @@
 }
 
 .explore-garage-list img{
-    height: 15vw;
+    height: 10vw;
     cursor: pointer;
     margin-bottom: 20px;
     padding-bottom: 20px;
@@ -39,7 +39,7 @@
 .explore-garage-list p{
     color: black;
     font-weight: 500;
-    font-size: max(1.2vw, 16px);
+    font-size: max(1vw, 16px);
     cursor: pointer;
     padding-bottom: 20px;
 
@@ -52,7 +52,12 @@
     border: none;
 }
 
+.explore-garage-list-item .active{
+    /* margin: 5px; */
+    border: 2px solid grey;
+    padding: 1px;
 
+}
 
 
 /* 

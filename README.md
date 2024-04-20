@@ -1,8 +1,29 @@
-# React + Vite
+## React Hooks
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+### useState -
+#### useState is React Hook that allows you to add state to a functional component. It returns an array with two values: the current state and a function to update it. The Hook takes an initial state value as an argument and returns an updated state value whenever the setter function is called.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+
+####  In Strict Mode, React will call your initializer function twice in order to help you find accidental impurities. This is development-only behavior and does not affect production. If your initializer function is pure (as it should be), this should not affect the behavior. The result from one of the calls will be ignored.
+
+```javascript
+
+const ExploreGarage = () =>{
+    return (
+        <div className = 'explore-garge' id= 'explore-garge'>
+        <h1>Explore Our Garage<h1/>
+        <p className='explore-garage-text'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident distinctio earum totam eius! Saepe sit veniam porro, obcaecati ipsa molestias voluptates et ea illum doloribus.</p>
+        <div className = 'explore-garge-lise'>
+        {Garage_list.map(item, index) =>{
+            return(
+                <div key = {index} className = 'explore-garage-list-item'>
+                <img src ={item.bike_image} alt= ''/>
+                <p>{item.bike_name}<p>
+            )
+        }}
+        </div>
+
+    )
+}
