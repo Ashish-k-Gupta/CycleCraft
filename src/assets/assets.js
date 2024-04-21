@@ -58,7 +58,89 @@ export const Garage_list =[
     }
 ]
 
+export const bike_list =[
+    {
+        _id: "",
+        name: "",
+        image: ktm1,
+        price:6000,
+        description: "",
+        catergory: ""
 
+    },
+    {
+        _id: "",
+        name: "",
+        image: ktm1,
+        price: 6000,
+        description: "",
+        catergory: ""
+
+    },
+    {
+        _id: "",
+        name: "",
+        image: ktm1,
+        price: 6000,
+        description: "",
+        catergory: ""
+
+    },
+    {
+        _id: "",
+        name: "",
+        image: ktm1,
+        price: 6000,
+        description: "",
+        catergory: ""
+
+    },
+    {
+        _id: "",
+        name: "",
+        image: ktm1,
+        price: 6000,
+        description: "",
+        catergory: ""
+
+    },
+    {
+        _id: "",
+        name: "",
+        image: ktm1,
+        price: 6000,
+        description: "",
+        catergory: ""
+
+    },
+    {
+        _id: "",
+        name: "",
+        image: ktm1,
+        price: 6000,
+        description: "",
+        catergory: ""
+
+    },
+    {
+        _id: "",
+        name: "",
+        image: ktm1,
+        price: 6000,
+        description: "",
+        catergory: ""
+
+    },
+    {
+        _id: "",
+        name: "",
+        image: ktm1,
+        price: 6000,
+        description: "",
+        catergory: ""
+
+    },
+]
 
 export default assets;
 

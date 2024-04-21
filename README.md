@@ -27,3 +27,23 @@ const ExploreGarage = () =>{
 
     )
 }
+```
+
+
+### ContextAPI
+#### lets say you have created four componentes; Component A, Component B, Component C, Component D
+
+### Now in component A and there you have created a state which has a function> which has value, Key. Now you want to access that state in component D. The traditional method to resolve this problem is you will give that state to Component B > then > Component C > then > Component D. 
+
+### But this create a problem in React which we call {propsDrilling}. We are unecessary passing the state to B & C component. That makes code look ugly. To fix it we need a method where we can dirctly use that method in Component D withour passing it down to B & C. That's when contextAPI comes in picture.
+
+### Now what we can do is create that State in sperate Context API file. Then we can use that state variable in Component A & D without drilling it down. Just passing it to both components using context API. Also if the state has been change in Components A the state will automatically will be changed in Component D. Becaue the Component D is a child of Component A. Once the Component A re-renders it will push component D to re-render itself.
+### To use this feature you have to make sure that you wrap all the component (A,B,C,D) inside the tags of {ContxtProvider}
+
+
+``` javascript
+
+const [category, useCategory] = useState("All");
+<div onClick= {prev => setCategory(prev.value === ?)}></div>
+
+```

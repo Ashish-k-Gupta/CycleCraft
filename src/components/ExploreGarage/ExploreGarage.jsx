@@ -24,16 +24,15 @@ const ExploreGarage = ({catagory, setCatagory}) => {
     </div>
   )
 }
- 
-
-
-
-
-
-
-
-
 
 
 
 export default ExploreGarage
+
+
+
+
+
+
+
+
