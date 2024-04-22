@@ -12,8 +12,8 @@ const BikeModels = ({id, name, price, description, image}) => {
             <p>{name}</p>
             <img src="assets.rating_starts" alt="" />
         </div>
-        <p className='food-model-desc'>{description}</p>
-        <p className="bike-modle-price">${price}</p>
+        <p className='bike-model-desc'>{description}</p>
+        <p className="bike-model-price">${price}</p>
       </div>
     </div>
   )

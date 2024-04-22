@@ -1,11 +1,11 @@
 import React, { useContext } from 'react'
 import "./BikeDisplay.css"
 import { StoreContext } from '../../context/StoreContext'
-import { bike_list } from '../../assets/assets'
+import { bike_list} from '../../assets/assets'
 import BikeModels from '../BikeModels/BikeModels'
 
 const BikeDisplay = ({category}) => {
-    const {food_list} = useContext(StoreContext)
+    const {bike_list} = useContext(StoreContext)
   return (
     <div className='bike_display' id='bike_display'>
         <h2>Our Store near you</h2>

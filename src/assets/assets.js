@@ -14,6 +14,8 @@ import kawasaki2 from '../../src/assets/kawasaki02.png'
 import yamaha3 from '../../src/assets/yamaha3.webp'
 import yamaha4 from '../../src/assets/SSyamaha1.webp'
 
+import test1 from '../../src/assets/Ladakh.jpg'
+
 
 
 const assets = {
@@ -60,18 +62,18 @@ export const Garage_list =[
 
 export const bike_list =[
     {
-        _id: "",
-        name: "",
-        image: ktm1,
+        _id: "1",
+        name: "DirtBike 1",
+        image: 'test1',
         price:6000,
-        description: "",
-        catergory: ""
+        description: "This is KTM 1",
+        catergory: "Dirt-Bikes"
 
     },
     {
-        _id: "",
+        _id: "2",
         name: "",
-        image: ktm1,
+        image: test1,
         price: 6000,
         description: "",
         catergory: ""
@@ -89,7 +91,7 @@ export const bike_list =[
     {
         _id: "",
         name: "",
-        image: ktm1,
+        image: "",
         price: 6000,
         description: "",
         catergory: ""
@@ -98,7 +100,7 @@ export const bike_list =[
     {
         _id: "",
         name: "",
-        image: ktm1,
+        image: "",
         price: 6000,
         description: "",
         catergory: ""
@@ -107,7 +109,7 @@ export const bike_list =[
     {
         _id: "",
         name: "",
-        image: ktm1,
+        image: "",
         price: 6000,
         description: "",
         catergory: ""
@@ -116,7 +118,7 @@ export const bike_list =[
     {
         _id: "",
         name: "",
-        image: ktm1,
+        image: "",
         price: 6000,
         description: "",
         catergory: ""
@@ -125,7 +127,7 @@ export const bike_list =[
     {
         _id: "",
         name: "",
-        image: ktm1,
+        image: "",
         price: 6000,
         description: "",
         catergory: ""
@@ -134,7 +136,7 @@ export const bike_list =[
     {
         _id: "",
         name: "",
-        image: ktm1,
+        image: "",
         price: 6000,
         description: "",
         catergory: ""

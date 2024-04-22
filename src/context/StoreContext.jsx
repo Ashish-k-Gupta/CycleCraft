@@ -1,5 +1,5 @@
 import { createContext } from "react";
-import {bike_list} from '../assets/assets.js'
+import {bike_list} from '../assets/assets'
 
 
 export const StoreContext = createContext(null)
