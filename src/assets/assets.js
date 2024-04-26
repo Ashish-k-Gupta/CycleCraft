@@ -64,7 +64,7 @@ export const bike_list =[
     {
         _id: "1",
         name: "DirtBike 1",
-        image: 'test1',
+        image: ktm1,
         price:6000,
         description: "This is KTM 1",
         catergory: "Dirt-Bikes"
@@ -72,17 +72,26 @@ export const bike_list =[
     },
     {
         _id: "2",
-        name: "",
-        image: test1,
+        name: "2025 KTM 250 SX",
+        image: ktm2,
         price: 6000,
-        description: "",
+        description: "This is description",
+        catergory: ""
+
+    },
+    {
+        _id: "",
+        name: "2025 KTM 150 SX",
+        image: ktm3,
+        price: 6000,
+        description: "This is description",
         catergory: ""
 
     },
     {
         _id: "",
         name: "",
-        image: ktm1,
+        image: "",
         price: 6000,
         description: "",
         catergory: ""
