@@ -2,7 +2,7 @@ import React from 'react'
 import '../ExploreGarage/ExploreGarage.css'
 import { Garage_list } from '../../assets/assets'
 
-const ExploreGarage = ({catagory, setCatagory}) => {
+const ExploreGarage = ({category, setCategory}) => {
   return (
     <div className='explore-garage' id='explore-garage'>
         <h1>Explore Our Garage</h1>
@@ -11,9 +11,9 @@ const ExploreGarage = ({catagory, setCatagory}) => {
             {Garage_list.map((item, index) =>{
               console.log(item, index)
                 return (
-                <div onClick={() => setCatagory(prev => prev === item.bike_name ? "All": item.bike_name)} key={index} className='explore-garage-list-item'>
+                <div onClick={() => setCategory(prev => prev === item.bike_name ? "All": item.bike_name)} key={index} className='explore-garage-list-item'>
                   <div className='img-container'>
-                  <img className={catagory === item.bike_name? "active": ""} src={item.bike_image} alt="" />
+                  <img className={category === item.bike_name? "active": ""} src={item.bike_image} alt="" />
                 <p>{item.bike_name}</p>
                   </div>
             </div>

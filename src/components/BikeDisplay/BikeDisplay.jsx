@@ -11,7 +11,7 @@ const BikeDisplay = ({ category }) => {
       <h2>Our Store near you</h2>
       <div className="bike-display-list">
         {bike_list.map((item, index) => {
-          // if(category === "" || category === item.category){
+          if(category === "All" || category === item.category){
             return <BikeModels
             key={index}
             id={item._id}
@@ -22,7 +22,7 @@ const BikeDisplay = ({ category }) => {
             // category={item.category}
              />
 
-          // }
+          }
         
         })}
       </div>

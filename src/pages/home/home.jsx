@@ -6,13 +6,13 @@ import BikeDisplay from '../../components/BikeDisplay/BikeDisplay'
 
 const home = () => {
 
-  const [catagory, setCatagory] = useState("All")
+  const [category, setCategory] = useState("All")
 
   return (
     <div>
       <Header/>
-      <ExploreGarage catagory = {catagory} setCatagory ={setCatagory}/>
-      <BikeDisplay catagory ={catagory}/>
+      <ExploreGarage category = {category} setCategory ={setCategory}/>
+      <BikeDisplay category ={category}/>
     </div>
   )
 }

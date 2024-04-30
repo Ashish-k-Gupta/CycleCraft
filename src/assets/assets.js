@@ -40,13 +40,13 @@ export const icons =[
 export const Garage_list =[
     {
         // bike_name: "2025 KTM 300 SX FACTORY EDITION",
-        bike_name: "Dirt Bike",
-        bike_image: ktm1
+        bike_name: "Dirt-Bike",
+        bike_image: ktm1, 
     },
     {
         // bike_name: "2025 KTM 250 SX",
-        bike_name: "Race Bike",
-        bike_image: ktm2
+        bike_name: "Race-Bike",
+        bike_image: ktm2,
     },
     {
         bike_name: "2025 KTM 150 SX",
@@ -82,7 +82,7 @@ export const bike_list =[
         image: ktm1,
         price:6000,
         description: "This is KTM 1",
-        catergory: "Dirt Bike"
+        category: "Dirt-Bike"
 
     },
     {
@@ -91,7 +91,7 @@ export const bike_list =[
         image: ktm2,
         price: 6000,
         description: "This is description",
-        catergory: "Dirt Bike"
+        category: "Dirt-Bike"
 
     },
     {
@@ -100,7 +100,7 @@ export const bike_list =[
         image: ktm3,
         price: 6000,
         description: "This is description",
-        catergory: "Dirt Bike"
+        category: "Dirt-Bike"
 
     },
     {
@@ -109,7 +109,7 @@ export const bike_list =[
         image: "",
         price: 6000,
         description: "",
-        catergory: "Race Bike"
+        category: "Race Bike"
 
     },
     {
@@ -118,7 +118,7 @@ export const bike_list =[
         image: "",
         price: 6000,
         description: "",
-        catergory: "Race Bike"
+        category: "Race Bike"
 
     },
     {
@@ -127,7 +127,7 @@ export const bike_list =[
         image: "",
         price: 6000,
         description: "",
-        catergory: "Race Bike"
+        category: "Race Bike"
 
     },
     {
@@ -136,7 +136,7 @@ export const bike_list =[
         image: "",
         price: 6000,
         description: "",
-        catergory: "Race Bike"
+        category: "Race Bike"
 
     },
     {
@@ -145,7 +145,7 @@ export const bike_list =[
         image: "",
         price: 6000,
         description: "",
-        catergory: "Cafe Racer"
+        category: "Cafe Racer"
 
     },
     {
@@ -154,7 +154,7 @@ export const bike_list =[
         image: "",
         price: 6000,
         description: "",
-        catergory: "Cafe Racer"
+        category: "Cafe Racer"
 
     },
     {
@@ -163,11 +163,11 @@ export const bike_list =[
         image: "",
         price: 6000,
         description: "",
-        catergory: "Cafe Racer"
+        category: "Cafe Racer"
 
     },
 ]
 
 export default assets;
 
-// catergory
+// category
