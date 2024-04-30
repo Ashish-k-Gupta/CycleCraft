@@ -6,6 +6,8 @@
     transition: 0.3s;
     animation: fadeIn 1s;
     padding: 1vw;
+background-color: white;
+color: black;
 }
 
 .bike-models-img{
@@ -44,6 +46,34 @@ font-size: 12px;
     margin: 10px 0px;
 }
 
+.bike-counter{
+    display: flex;
+}
+
 .bike-models-image{
     height: 9vw;
+}
+
+.add, .addition, .subtract {
+    /* border:  2px solid; */
+    height:2vw;
+    margin: 5px 0;
+    padding: 5px;
+}
+
+.storeCount{
+    height: 1.8vw;
+    width: 1.8vw;
+    margin-left: 6.5vw;
+    margin-top: 2%;
+    border:  2px solid tomato;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.count{
+    padding: 7px;
+    /* font-size: 1.1vw; */
 }

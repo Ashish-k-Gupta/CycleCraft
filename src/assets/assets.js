@@ -2,6 +2,9 @@
 import craftLogo from '../../src/assets/logoFinal.png';
 import searchIcon from '../../src/assets/searchIcon.svg';
 import cartIcon from '../../src/assets/cartIcon.svg';
+import addIcon from '../../src/assets/addPlus.svg'
+import addIcon2 from '../../src/assets/addButton.svg'
+import minusIcon from '../../src/assets/minusIcon.svg'
 
 
 // Our Garage
@@ -18,19 +21,31 @@ import test1 from '../../src/assets/Ladakh.jpg'
 
 
 
+
 const assets = {
     craftLogo,
     searchIcon, 
-    cartIcon
+    cartIcon, 
+    addIcon, 
+    addIcon2,
+    minusIcon
 };
+
+export const icons =[
+    {
+        add_icon: addIcon
+    },
+]
 
 export const Garage_list =[
     {
-        bike_name: "2025 KTM 300 SX FACTORY EDITION",
+        // bike_name: "2025 KTM 300 SX FACTORY EDITION",
+        bike_name: "Dirt Bike",
         bike_image: ktm1
     },
     {
-        bike_name: "2025 KTM 250 SX",
+        // bike_name: "2025 KTM 250 SX",
+        bike_name: "Race Bike",
         bike_image: ktm2
     },
     {
@@ -67,7 +82,7 @@ export const bike_list =[
         image: ktm1,
         price:6000,
         description: "This is KTM 1",
-        catergory: "Dirt-Bikes"
+        catergory: "Dirt Bike"
 
     },
     {
@@ -76,82 +91,83 @@ export const bike_list =[
         image: ktm2,
         price: 6000,
         description: "This is description",
-        catergory: ""
+        catergory: "Dirt Bike"
 
     },
     {
-        _id: "",
+        _id: "3",
         name: "2025 KTM 150 SX",
         image: ktm3,
         price: 6000,
         description: "This is description",
-        catergory: ""
+        catergory: "Dirt Bike"
 
     },
     {
-        _id: "",
+        _id: "4",
         name: "",
         image: "",
         price: 6000,
         description: "",
-        catergory: ""
+        catergory: "Race Bike"
 
     },
     {
-        _id: "",
+        _id: "5",
         name: "",
         image: "",
         price: 6000,
         description: "",
-        catergory: ""
+        catergory: "Race Bike"
 
     },
     {
-        _id: "",
+        _id: "6",
         name: "",
         image: "",
         price: 6000,
         description: "",
-        catergory: ""
+        catergory: "Race Bike"
 
     },
     {
-        _id: "",
+        _id: "7",
         name: "",
         image: "",
         price: 6000,
         description: "",
-        catergory: ""
+        catergory: "Race Bike"
 
     },
     {
-        _id: "",
+        _id: "8",
         name: "",
         image: "",
         price: 6000,
         description: "",
-        catergory: ""
+        catergory: "Cafe Racer"
 
     },
     {
-        _id: "",
+        _id: "9",
         name: "",
         image: "",
         price: 6000,
         description: "",
-        catergory: ""
+        catergory: "Cafe Racer"
 
     },
     {
-        _id: "",
+        _id: "10",
         name: "",
         image: "",
         price: 6000,
         description: "",
-        catergory: ""
+        catergory: "Cafe Racer"
 
     },
 ]
 
 export default assets;
 
+// catergory

@@ -1,21 +1,25 @@
-import React, { useState } from 'react'
+import React, { useContext } from 'react'
 import "./BikeModels.css"
-import assets from '../../assets/assets'
+import assets, { icons } from '../../assets/assets'
+import { StoreContext } from '../../context/StoreContext'
 
 const BikeModels = ({id, name, price, description, image}) => {
 
-const [bikeCount, setBikeCount] = useState(0)
+const {cartItems, addToCart, removeFromCart} = useContext(StoreContext);
+
 
   return (
     <div className='bike-models'>
         <div className="bike-models-image-container">
             <img className='bike-models-image' src={image} alt="" />
-            {!bikeCount 
-            ? <img className='add' onClick={() => setBikeCount(prev => prev+ 1)} src={assets.add_icon_white} alt='Add button icon'/>
+            {!cartItems[id] 
+            ? <img className='add' onClick={() => addToCart(id)} src={assets.addIcon} alt='Add button icon'/>
             : <div className="bike-counter">
-              <img onClick={() => setBikeCount(prev => prev - 1)} src={assets.remove_icon_red} alt=''/>
-              <p>{bikeCount}</p>
-              <img onClick={() => setBikeCount(prev => prev + 1)} src={assets.remove_icon_red} alt=''/>
+              <img className='addition' onClick={() => addToCart(id)} src={assets.addIcon} alt=''/>
+              <img className='subtract' onClick={() => removeFromCart(id)} src={assets.minusIcon} alt=''/>
+              <div className='storeCount'>
+              <p className='count'>{cartItems[id]}</p>
+              </div>
             </div>
             }
         </div>
