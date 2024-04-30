@@ -5,6 +5,12 @@ import cartIcon from '../../src/assets/cartIcon.svg';
 import addIcon from '../../src/assets/addPlus.svg'
 import addIcon2 from '../../src/assets/addButton.svg'
 import minusIcon from '../../src/assets/minusIcon.svg'
+import facebookLogo from './facebookLogo.svg'
+import instagramLogo from './InstaLogo.svg'
+import twitterLogo from './twitterLogo.svg'
+import linkedInLogo from './linkedInLogo.svg'
+import xLogo from './Xlogo.svg'
+import tXlogo from './twitXlogo.svg'
 
 
 // Our Garage
@@ -28,7 +34,13 @@ const assets = {
     cartIcon, 
     addIcon, 
     addIcon2,
-    minusIcon
+    minusIcon, 
+    facebookLogo,
+    instagramLogo, 
+    twitterLogo, 
+    linkedInLogo,
+    xLogo,
+    tXlogo
 };
 
 export const icons =[
