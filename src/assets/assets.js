@@ -11,6 +11,9 @@ import twitterLogo from './twitterLogo.svg'
 import linkedInLogo from './linkedInLogo.svg'
 import xLogo from './Xlogo.svg'
 import tXlogo from './twitXlogo.svg'
+import playStore from './Google_Play.svg'
+import appStore from './App_Store.svg'
+import cross_icon from './cross_icon.svg'
 
 
 // Our Garage
@@ -40,7 +43,10 @@ const assets = {
     twitterLogo, 
     linkedInLogo,
     xLogo,
-    tXlogo
+    tXlogo,
+    playStore,
+    appStore, 
+    cross_icon
 };
 
 export const icons =[

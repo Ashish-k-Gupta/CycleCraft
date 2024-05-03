@@ -59,15 +59,9 @@
 
 }
 
-
-/* 
-  const [category, setCategory] = useState("All")
-
-      <ExploreGarage category={category} setCategory ={setCategory}/>
-
-      const ExploreGarage = ({category, setCategory}) => {
-
-                      <img className={category === item.bike_name? "active":"" } src={item.bike_image} alt="" />
-                <div onClick= {()=> setCategory(prev =>prev===item.bike_name?"All": item.bike_name)} key={index} className='explore-garage-list-item'>
-
-*/
+@media (max-width: 1050px) {
+    .explore-garage-text{
+        max-width: 100%;
+        font-size: 14px;
+    }
+}

@@ -58,3 +58,32 @@ color: white;
     cursor: pointer;
     filter: invert(98%) sepia(1%) saturate(70%) hue-rotate(192deg) brightness(120%) contrast(100%);;
 }
+
+
+@media (max-width: 750px) {
+
+    .footer-content{
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+    }
+
+    .footerLogo{
+        width: 50%;
+    }
+
+    .footer-content h2{
+        font-size: 5vw;
+    }
+    .footer-content li{
+        font-size: 4vw;
+    }
+    .footer-content p{
+        font-size: 4vw;
+        width: 100%;
+    }
+    .footer-copyright{
+        text-align: center;
+    }
+
+}
