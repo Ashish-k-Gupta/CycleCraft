@@ -20,3 +20,5 @@ const home = () => {
 }
 
 export default home
+
+// cd ../../../f/code/projectinterview/100xdevsharkirat/reactproject/cyclecraft

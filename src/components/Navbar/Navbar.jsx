@@ -16,7 +16,7 @@ const handleMenuClick = (menuItem) =>{
 
   return (
     <div className='navbar'>
-      <img  className='logo' src={assets.craftLogo} alt="" />
+      <Link to={"/"}><img  className='logo' src={assets.craftLogo} alt="" /></Link>
       <ul className="navbar-menu">
 
         <li>
@@ -35,7 +35,7 @@ const handleMenuClick = (menuItem) =>{
       <div className="navbar-right">
         <img src={assets.searchIcon} alt="" />
         <div className="navbar-serach-icon">
-          <img src= {assets.cartIcon} alt="" />
+         <Link to={"/cart"}> <img src= {assets.cartIcon} alt="" /></Link>
           <div className="dot"></div>
         </div>
         <button onClick={()=> setShowLogin(true)}>Sign In</button>

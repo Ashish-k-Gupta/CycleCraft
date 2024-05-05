@@ -71,4 +71,5 @@ span{
     cursor: pointer;
     color: blue;
     text-decoration: underline;
+    font-weight: 500;
 }
